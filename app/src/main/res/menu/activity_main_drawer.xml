@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shared_preferences"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Shared Preferences" />
+        <item
+            android:id="@+id/nav_file"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="File" />
+        <item
+            android:id="@+id/nav_provider"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Provider" />
+        <item
+            android:id="@+id/nav_sqlite"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SQLite" />
+    </group>
+
+</menu>
